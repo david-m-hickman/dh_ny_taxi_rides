@@ -13,7 +13,7 @@ sources:
            # error_after: {count: 6, period: hour}
 
 models:
-    - name: yellow_taxi_trips
+    - name: stg_yellow_tripdata
       description: > 
         Trips made by New York City's iconic yellow taxis. 
         Yellow taxis are the only vehicles permitted to respond to a street hail from a passenger in all five
