@@ -3,17 +3,17 @@ version: 2
 
 sources:
     - name: staging
-      database: yellow_taxi_trips
+      database: optimistic-name-69000
       schema: dezoomcamp
 
       # loaded_at_field: record_loaded_at
       tables:
-        - name: yellow_tripdata
+        - name: yellow_taxi_trips
          # freshness:
            # error_after: {count: 6, period: hour}
 
 models:
-    - name: stg_yellow_tripdata
+    - name: yellow_taxi_trips
       description: > 
         Trips made by New York City's iconic yellow taxis. 
         Yellow taxis are the only vehicles permitted to respond to a street hail from a passenger in all five
